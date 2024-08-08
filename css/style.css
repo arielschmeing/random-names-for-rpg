@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --black: rgb(54, 54, 54);
+    --white: #e6e6e6;
+    --main_Violet: #422d72;
+    --main_Violet_Light: #674ca7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Radio Canada Big", sans-serif;
+}
+
+body {
+    background-color: var(--main_Violet);
+}
+
+main {
+    margin: auto;
+    max-width: 500px;
+    padding: 15px;
+    border-color: var(--main_Violet_Light);
+    border-radius: 5px;
+    border-style: dashed;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: var(--white);
+}
+
+.btn_Normal {
+    cursor: pointer;
+    color: var(--black);
+    background-color: var(--white);
+    padding: 7px;
+    font-size: 1em;
+    font-weight: bold;
+    border-color: var(--white);
+    border-radius: 3px;
+    border-style: solid;
+    transition: all 0.5s ease;
+}
+
+.btn_Normal:hover {
+    box-shadow: 0px 0px 3px 2px rgba(255, 255, 255, 0.247);
+    transition: all 0.5s ease;
+}
+
+.main_Text {
+    text-align: center;
+    margin: 30px;
+    color: var(--white);
+    cursor: default;
+}
